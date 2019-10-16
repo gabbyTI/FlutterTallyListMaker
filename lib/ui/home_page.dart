@@ -33,7 +33,6 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-
 StreamBuilder<List<CheckList>> _buildCheckList(BuildContext context) {
   final dao = Provider.of<CheckListDao>(context);
   return StreamBuilder(
@@ -89,12 +88,14 @@ Widget _buildListOfCheckList(
       onTap: () async {
         debugPrint('View "' + checkList.checkListName + '"');
         int total = await Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) => ViewCheckList(
-                      checkListId: checkList.id,
-                      checkListName: checkList.checkListName,
-                    )));
+          context,
+          MaterialPageRoute(
+            builder: (context) => ViewCheckList(
+              checkListId: checkList.id,
+              checkListName: checkList.checkListName,
+            ),
+          ),
+        );
         if (total != null) {
           final id = checkList.id;
           dao.customUpdate(
