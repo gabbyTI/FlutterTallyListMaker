@@ -1,4 +1,9 @@
-# list_maker
+# list maker app : Tally
+Flutter full List maker app with sqlite database queries and calculations made with the stored data
+
+📸Screenshots
+
+View the screenshots in the screenshots directory
 
 A new Flutter project.
 
