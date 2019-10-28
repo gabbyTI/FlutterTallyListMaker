@@ -3,11 +3,10 @@ Flutter full List maker app with sqlite database queries and calculations made w
 
 📸Screenshots
 
-![](screenshots/Screenshot_1571262206.png)
-![](screenshots/Screenshot_1571262548.png)
-![](screenshots/Screenshot_1571262555.png)
-![](screenshots/Screenshot_1571262645.png)
-![](screenshots/Screenshot_1571262744.png)
+<img src="screenshots/Screenshot_1571262206.png" width=200 height=400><img src="screenshots/Screenshot_1571262548.png" width=200 height=400>
+<img src="screenshots/Screenshot_1571262555.png" width=200 height=400>
+<img src="screenshots/Screenshot_1571262645.png" width=200 height=400>
+<img src="screenshots/Screenshot_1571262744.png" width=200 height=400>
 
 View the screenshots in the screenshots directory
 
