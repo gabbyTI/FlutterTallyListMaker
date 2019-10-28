@@ -3,6 +3,12 @@ Flutter full List maker app with sqlite database queries and calculations made w
 
 📸Screenshots
 
+![](screenshots/Screenshot_1571262206.png)
+![](screenshots/Screenshot_1571262548.png)
+![](screenshots/Screenshot_1571262555.png)
+![](screenshots/Screenshot_1571262645.png)
+![](screenshots/Screenshot_1571262744.png)
+
 View the screenshots in the screenshots directory
 
 A new Flutter project.
